@@ -1,8 +1,14 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shortelldesigns.github.io/diy-kit-index/sitemap.xml
-Sitemap: https://shortelldesigns.github.io/tax-kit-2026/sitemap.xml
-Sitemap: https://shortelldesigns.github.io/radon-test-index/sitemap.xml
+Sitemap: https://shortelldesigns.github.io/sitemap.xml
 Sitemap: https://shortelldesigns.github.io/well-labs-index/sitemap.xml
 Sitemap: https://shortelldesigns.github.io/septic-pump-index/sitemap.xml
+Sitemap: https://shortelldesigns.github.io/radon-test-index/sitemap.xml
+Sitemap: https://shortelldesigns.github.io/diy-kit-index/sitemap.xml
+Sitemap: https://shortelldesigns.github.io/tax-kit-2026/sitemap.xml
+Sitemap: https://shortelldesigns.github.io/chimney-sweep-index/sitemap.xml
+Sitemap: https://shortelldesigns.github.io/wildlife-control-index/sitemap.xml
+Sitemap: https://shortelldesigns.github.io/lead-paint-index/sitemap.xml
+Sitemap: https://shortelldesigns.github.io/mold-assessor-index/sitemap.xml
+Sitemap: https://shortelldesigns.github.io/asbestos-lab-index/sitemap.xml
