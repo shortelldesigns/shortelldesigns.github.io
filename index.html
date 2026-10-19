@@ -76,6 +76,31 @@
       color: #fff;
       text-decoration: none;
     }
+    /* Designer fold pack 2026-10-19: tee CTA in the fold, 44px taps, compact listing links */
+    .card a.button,
+    a.button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      background: var(--link);
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    a.button:hover, a.button:focus-visible { background: #0842a0; }
+    a.button:focus-visible { outline: 3px solid #1a1a1a; outline-offset: 2px; }
+    .shop-cta { margin: 0 0 1.25rem; }
+    .shop-cta a.button { margin-right: 0.75rem; }
+    .shop-cta .jump { display: inline-flex; align-items: center; min-height: 44px; padding: 0; }
+    .card p a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 0;
+    }
+    section[aria-labelledby="shop"] .card + .card { margin-top: 0.75rem; }
   </style>
 </head>
 <body>
@@ -83,6 +108,7 @@
     <p class="byline">Shortell Designs</p>
     <h1>Shortell Designs</h1>
     <p>This is the Shortell Designs GitHub Pages hub. Start with the guides below, or open one of the directory sites.</p>
+    <p class="shop-cta"><a class="button" href="https://www.teepublic.com/user/misterteez" rel="noopener">Shop MisterTeez tees on TeePublic</a> <a class="jump" href="#shop">See the tee collections</a></p>
     <section aria-labelledby="start-here">
       <h2 id="start-here">Start here: guides</h2>
       <ul>
@@ -108,6 +134,7 @@
         <p><strong>Sagas of the River:</strong> <a href="https://www.teepublic.com/t-shirt/100441779-the-catfish-of-the-deep-hollow" rel="noopener">The Catfish of the Deep Hollow</a> · <a href="https://www.teepublic.com/t-shirt/100440582-the-fly-casters-spell" rel="noopener">The Fly-Caster&#x27;s Spell</a> · <a href="https://www.teepublic.com/t-shirt/100441845-the-bass-that-swallowed-the-moon" rel="noopener">The Bass That Swallowed the Moon</a> · <a href="https://www.teepublic.com/t-shirt/100440596-the-elder-passes-the-rod" rel="noopener">The Elder Passes the Rod</a> · <a href="https://www.teepublic.com/t-shirt/100441864-lord-of-the-tackle-hoard" rel="noopener">Lord of the Tackle Hoard</a></p>
         <p><strong>Sagas of the Camp:</strong> <a href="https://www.teepublic.com/t-shirt/100441876-the-marshmallow-sorcerer" rel="noopener">The Marshmallow Sorcerer</a> · <a href="https://www.teepublic.com/t-shirt/100441884-lord-of-the-hammock" rel="noopener">Lord of the Hammock</a> · <a href="https://www.teepublic.com/t-shirt/100441896-the-siege-of-the-rain-fly" rel="noopener">The Siege of the Rain Fly</a> · <a href="https://www.teepublic.com/t-shirt/100441901-the-gray-jays-ransom" rel="noopener">The Gray Jay&#x27;s Ransom</a> · <a href="https://www.teepublic.com/t-shirt/100441909-queen-of-the-alpine-lake" rel="noopener">Queen of the Alpine Lake</a></p>
         <p><strong>Sagas of the Trail:</strong> <a href="https://www.teepublic.com/t-shirt/100441916-conqueror-of-the-false-summit" rel="noopener">Conqueror of the False Summit</a> · <a href="https://www.teepublic.com/t-shirt/100441923-pilgrim-of-the-red-canyon" rel="noopener">Pilgrim of the Red Canyon</a> · <a href="https://www.teepublic.com/t-shirt/100440605-saga-of-the-thousand-miles" rel="noopener">Saga of the Thousand Miles</a> · <a href="https://www.teepublic.com/t-shirt/100441929-beyond-the-edge-of-the-map" rel="noopener">Beyond the Edge of the Map</a> · <a href="https://www.teepublic.com/t-shirt/100441934-the-standoff-at-the-trail-bend" rel="noopener">The Standoff at the Trail Bend</a></p>
+        <a class="button" href="https://www.teepublic.com/user/misterteez" rel="noopener">Shop the Sagas tees in the MisterTeez store</a>
       </div>
       <div class="card">
         <h3>Backyard chicken tees (new)</h3>
