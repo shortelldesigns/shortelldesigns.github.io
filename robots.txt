@@ -1,5 +1,11 @@
 User-agent: *
 Allow: /
+Disallow: /radon-test-index/data/
+Disallow: /well-labs-index/data/
+Disallow: /septic-pump-index/data/
+Disallow: /lead-paint-index/data/
+Disallow: /asbestos-lab-index/data/
+Disallow: /mold-assessor-index/data/
 
 Sitemap: https://shortelldesigns.github.io/sitemap.xml
 Sitemap: https://shortelldesigns.github.io/sitemap-hub.xml
